@@ -36,9 +36,11 @@ flex-direction: column;
 height: 400px;
 justify-content: center;
 row-gap: 10px;
+padding-top: 50px;
+padding-bottom: 50px;
 }
 .p-Home.HeroHeadingContainer {
-max-width: 730px;
+max-width: 840px;
 }
 .p-Home.Hero {
 ;
@@ -71,7 +73,7 @@ border-color: #c0c0c0;
 .p-Home.ProjectPreviewImage {
 width: 55%;
 max-height: ;
-height: 400px;
+height: 500px;
 box-sizing: border-box;
 border-style: none;
 border-color: transparent;
@@ -83,6 +85,7 @@ background-origin: border-box;
 background-attachment: fixed;
 background-position-y: 50%;
 background-position-x: 50%;
+align-self: auto;
 }
 .p-Home.ProjectItemInfo {
 display: flex;
@@ -137,7 +140,7 @@ row-gap: .4em;
 .p-Home.Div16 {
 width: 55%;
 max-height: ;
-height: 400px;
+height: 500px;
 box-sizing: border-box;
 border-style: none;
 border-color: transparent;
@@ -179,7 +182,7 @@ box-sizing: border-box;
 .p-Home.ProjectPreviewImage3 {
 width: 55%;
 max-height: ;
-height: 400px;
+height: 500px;
 box-sizing: border-box;
 border-style: none;
 border-color: transparent;
@@ -261,20 +264,18 @@ margin-bottom: 60px;
 }
 .p-Home.brandName {
 font-family: IBM Plex Sans;
-font-weight: 500;
+font-weight: 700;
 font-size: 32px;
 }
 .p-Home.Link5 {
 font-family: IBM Plex Sans;
 font-weight: 500;
+font-size: 1.2rem;
 }
 .p-Home.Link6 {
 font-family: IBM Plex Sans;
 font-weight: 500;
-}
-.p-Home.Link7 {
-font-family: IBM Plex Sans;
-font-weight: 500;
+font-size: 1.2rem;
 }
 .p-Home.Button2 {
 color: #000000;
@@ -283,7 +284,7 @@ padding-top: 0px;
 padding-left: 0px;
 padding-bottom: 0px;
 padding-right: 0px;
-font-size: 16px;
+font-size: 1.2rem;
 border-radius: 2px;
 outline: none;
 font-weight: 500;
@@ -296,17 +297,23 @@ user-select: none;
 font-family: IBM Plex Sans;
 }
 .p-Home.Image2 {
-;
+width: 30px;
+height: 30px;
+}
+.p-Home.Link12 {
+font-family: IBM Plex Sans;
+font-weight: 500;
+font-size: 1.2rem;
 }
 .p-Home.TextBox2 {
 font-family: IBM Plex Sans;
-font-weight: 600;
-font-size: 3.6rem;
+font-weight: 500;
+font-size: 4.2rem;
 }
 .p-Home.TextBox4 {
 font-family: IBM Plex Sans;
-font-weight: 600;
-font-size: 3.6rem;
+font-weight: 500;
+font-size: 4.2rem;
 border-bottom-width: 4px;
 border-bottom-color: #000000;
 border-radius: ;
@@ -314,14 +321,15 @@ border-radius: ;
 .p-Home.HeroBodyContainer {
 font-family: IBM Plex Sans;
 font-weight: 500;
-font-size: 1.4rem;
+font-size: 1.6rem;
 color: #767676;
-max-width: 720px;
+max-width: 840px;
+line-height: 2.5rem;
 }
 .p-Home.ProjectsHeading {
 font-family: IBM Plex Sans;
 font-weight: 500;
-font-size: 32px;
+font-size: 2.8rem;
 text-align: center;
 padding-top: 20px;
 padding-bottom: 20px;
@@ -329,6 +337,8 @@ padding-bottom: 20px;
 .p-Home.Image1 {
 overflow: hidden;
 width: 150%;
+height: 500px;
+align-self: center;
 }
 .p-Home.LinkViewProject1 {
 font-family: IBM Plex Sans;
@@ -405,7 +415,7 @@ padding-top: ;
 padding-left: 10px;
 }
 .p-Home.Image6 {
-width: 100%;
+width: 130%;
 height: 100%;
 }
 .p-Home.BtnBrowsePortfolio {

@@ -10,7 +10,7 @@ import { TextBox } from "@atrilabs/react-component-manifests/src/manifests/TextB
 import { Link } from "@atrilabs/react-component-manifests/src/manifests/Link/Link.tsx";
 import { Button } from "@atrilabs/react-component-manifests/src/manifests/Button/Button.tsx";
 import { Image } from "@atrilabs/react-component-manifests/src/manifests/Image/Image.tsx";
-import { usenavSectionCb, usenavbarContainerCb, useLogoCb, useNavItemContainerCb, useHeroSectionCb, useHeroContainerCb, useHeroHeadingContainerCb, useHeroCb, useProjectSectionCb, useProjectSectionContainerCb, useProjectItemsContainerCb, useProjectItem1Cb, useProjectPreviewImageCb, useProjectItemInfoCb, useProjectItemInfoContainerCb, useViewProject1Cb, useProjectItemInfoHeaderCb, useFlex14Cb, useFlex13Cb, useFlex12Cb, useFlex11Cb, useDiv15Cb, useDiv16Cb, useFlex18Cb, useFlex17Cb, useFlex16Cb, useFlex15Cb, useDiv17Cb, useProjectPreviewImage3Cb, useBrowseProjectContainerCb, useAboutMeSectionCb, useAboutMeSectionContainerCb, useFlex21Cb, useFlex22Cb, useFlex23Cb, useDiv21Cb, useSectionDivider1Cb, useSectionDivider2Cb, useSectionDivider3Cb, usebrandNameCb, useLink5Cb, useLink6Cb, useLink7Cb, useButton2Cb, useImage2Cb, useTextBox2Cb, useTextBox4Cb, useHeroBodyContainerCb, useProjectsHeadingCb, useImage1Cb, useLinkViewProject1Cb, useProjectInfoNameCb, useProjectInfoHeaderCb, useProjectInfoDescCb, useTextBox10Cb, useTextBox11Cb, useTextBox12Cb, useLinkViewProject2Cb, useImage5Cb, useTextBox13Cb, useTextBox14Cb, useTextBox15Cb, useLinkViewProject3Cb, useImage4Cb, useImage6Cb, useBtnBrowsePortfolioCb, useTextBox17Cb, useTextBox18Cb, useLink11Cb, useImage3Cb, useImage7Cb } from "../page-cbs/Home";
+import { usenavSectionCb, usenavbarContainerCb, useLogoCb, useNavItemContainerCb, useHeroSectionCb, useHeroContainerCb, useHeroHeadingContainerCb, useHeroCb, useProjectSectionCb, useProjectSectionContainerCb, useProjectItemsContainerCb, useProjectItem1Cb, useProjectPreviewImageCb, useProjectItemInfoCb, useProjectItemInfoContainerCb, useViewProject1Cb, useProjectItemInfoHeaderCb, useFlex14Cb, useFlex13Cb, useFlex12Cb, useFlex11Cb, useDiv15Cb, useDiv16Cb, useFlex18Cb, useFlex17Cb, useFlex16Cb, useFlex15Cb, useDiv17Cb, useProjectPreviewImage3Cb, useBrowseProjectContainerCb, useAboutMeSectionCb, useAboutMeSectionContainerCb, useFlex21Cb, useFlex22Cb, useFlex23Cb, useDiv21Cb, useSectionDivider1Cb, useSectionDivider2Cb, useSectionDivider3Cb, usebrandNameCb, useLink5Cb, useLink6Cb, useButton2Cb, useImage2Cb, useLink12Cb, useTextBox2Cb, useTextBox4Cb, useHeroBodyContainerCb, useProjectsHeadingCb, useImage1Cb, useLinkViewProject1Cb, useProjectInfoNameCb, useProjectInfoHeaderCb, useProjectInfoDescCb, useTextBox10Cb, useTextBox11Cb, useTextBox12Cb, useLinkViewProject2Cb, useImage5Cb, useTextBox13Cb, useTextBox14Cb, useTextBox15Cb, useLinkViewProject3Cb, useImage4Cb, useImage6Cb, useBtnBrowsePortfolioCb, useTextBox17Cb, useTextBox18Cb, useLink11Cb, useImage3Cb, useImage7Cb } from "../page-cbs/Home";
 import "../page-css/Home.css";
 import "../custom/Home";
 
@@ -156,15 +156,15 @@ const Link5Cb = useLink5Cb()
 const Link6Props = useStore((state)=>state["Home"]["Link6"]);
 const Link6IoProps = useIoStore((state)=>state["Home"]["Link6"]);
 const Link6Cb = useLink6Cb()
-const Link7Props = useStore((state)=>state["Home"]["Link7"]);
-const Link7IoProps = useIoStore((state)=>state["Home"]["Link7"]);
-const Link7Cb = useLink7Cb()
 const Button2Props = useStore((state)=>state["Home"]["Button2"]);
 const Button2IoProps = useIoStore((state)=>state["Home"]["Button2"]);
 const Button2Cb = useButton2Cb()
 const Image2Props = useStore((state)=>state["Home"]["Image2"]);
 const Image2IoProps = useIoStore((state)=>state["Home"]["Image2"]);
 const Image2Cb = useImage2Cb()
+const Link12Props = useStore((state)=>state["Home"]["Link12"]);
+const Link12IoProps = useIoStore((state)=>state["Home"]["Link12"]);
+const Link12Cb = useLink12Cb()
 const TextBox2Props = useStore((state)=>state["Home"]["TextBox2"]);
 const TextBox2IoProps = useIoStore((state)=>state["Home"]["TextBox2"]);
 const TextBox2Cb = useTextBox2Cb()
@@ -253,7 +253,7 @@ const Image7Cb = useImage7Cb()
 <Flex className="p-Home NavItemContainer bpt" {...NavItemContainerProps} {...NavItemContainerCb} {...NavItemContainerIoProps}>
 <Link className="p-Home Link5 bpt" {...Link5Props} {...Link5Cb} {...Link5IoProps}/>
 <Link className="p-Home Link6 bpt" {...Link6Props} {...Link6Cb} {...Link6IoProps}/>
-<Link className="p-Home Link7 bpt" {...Link7Props} {...Link7Cb} {...Link7IoProps}/>
+<Link className="p-Home Link12 bpt" {...Link12Props} {...Link12Cb} {...Link12IoProps}/>
 <Button className="p-Home Button2 bpt" {...Button2Props} {...Button2Cb} {...Button2IoProps}/>
 <Image className="p-Home Image2 bpt" {...Image2Props} {...Image2Cb} {...Image2IoProps}/>
 </Flex>

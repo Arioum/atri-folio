@@ -195,19 +195,6 @@ const desktopModeProps = {
         ]
       }
     },
-    "Link7": {
-      "custom": {
-        "text": "Contact",
-        "url": "/"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
     "Button2": {
       "custom": {
         "text": "Pages"
@@ -224,6 +211,19 @@ const desktopModeProps = {
       "custom": {
         "alt": "bag",
         "src": "/app-assets/akar-icons_shopping-bag.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Link12": {
+      "custom": {
+        "text": "Contact",
+        "url": "/"
       },
       "callbacks": {
         "onClick": [

@@ -72,10 +72,6 @@ export function useLink6Cb() {
 
 	return {  }
 }
-export function useLink7Cb() {
-
-	return {  }
-}
 export function useButton2Cb() {
 	const onClick = useCallback(callbackFactory("Button2", "Home", "/", "onClick", 
 			{
@@ -895,4 +891,8 @@ export function useImage7Cb() {
   ]
 }), [])
 	return { onClick }
+}
+export function useLink12Cb() {
+
+	return {  }
 }

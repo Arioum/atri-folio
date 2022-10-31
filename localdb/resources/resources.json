@@ -1,6 +1,6 @@
 [
   {
-    "str": "@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap')",
+    "str": "@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');",
     "method": "css",
     "imports": {
       "fonts": [
@@ -23,6 +23,11 @@
           "fontFamily": "IBM Plex Sans",
           "fontStyle": "normal",
           "fontWeight": 600
+        },
+        {
+          "fontFamily": "IBM Plex Sans",
+          "fontStyle": "normal",
+          "fontWeight": 700
         }
       ]
     }
