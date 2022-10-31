@@ -19,9 +19,9 @@ align-content: center;
 }
 .p-Home.NavItemContainer {
 display: flex;
-row-gap: ;
-column-gap: 2em;
 align-items: center;
+row-gap: ;
+column-gap: 2.4em;
 }
 .p-Home.HeroSection {
 ;
@@ -267,17 +267,22 @@ font-family: IBM Plex Sans;
 font-weight: 700;
 font-size: 32px;
 }
-.p-Home.Link5 {
+.p-Home.Link13 {
+font-size: 1.2rem;
 font-family: IBM Plex Sans;
 font-weight: 500;
-font-size: 1.2rem;
 }
-.p-Home.Link6 {
+.p-Home.Portfolio {
+font-size: 1.2rem;
 font-family: IBM Plex Sans;
 font-weight: 500;
-font-size: 1.2rem;
 }
-.p-Home.Button2 {
+.p-Home.Link15 {
+font-size: 1.2rem;
+font-family: IBM Plex Sans;
+font-weight: 500;
+}
+.p-Home.Button3 {
 color: #000000;
 background-color: transparent;
 padding-top: 0px;
@@ -285,25 +290,20 @@ padding-left: 0px;
 padding-bottom: 0px;
 padding-right: 0px;
 font-size: 1.2rem;
-border-radius: 2px;
+border-radius: ;
 outline: none;
 font-weight: 500;
 text-align: center;
-border-width: 0px;
-border-style: solid;
-border-color: transparent;
+border-width: 1px;
+border-style: none;
+border-color: #1890ff;
 cursor: pointer;
 user-select: none;
 font-family: IBM Plex Sans;
 }
-.p-Home.Image2 {
+.p-Home.Image8 {
 width: 30px;
 height: 30px;
-}
-.p-Home.Link12 {
-font-family: IBM Plex Sans;
-font-weight: 500;
-font-size: 1.2rem;
 }
 .p-Home.TextBox2 {
 font-family: IBM Plex Sans;
@@ -446,4 +446,36 @@ height: 20px;
 }
 .p-Home.Image7 {
 width: 100%;
+}
+@media screen and (max-width: 991px) {
+	.p-Home.HeroHeadingContainer.bpt {
+max-width: 680px;
+	}
+	.p-Home.TextBox2.bpt {
+font-size: 3.4rem;
+	}
+	.p-Home.TextBox4.bpt {
+font-size: 3.4rem;
+	}
+	.p-Home.HeroBodyContainer.bpt {
+max-width: 680px;
+font-size: 1.4rem;
+	}
+}
+@media screen and (max-width: 478px) {
+	.p-Home.HeroHeadingContainer.bpt {
+max-width: 380px;
+	}
+	.p-Home.TextBox2.bpt {
+font-size: 2.4rem;
+	}
+	.p-Home.TextBox4.bpt {
+font-size: 2.4rem;
+	}
+	.p-Home.HeroBodyContainer.bpt {
+max-width: 380px;
+line-height: 2rem;
+font-size: 1.2rem;
+font-weight: 500;
+	}
 }

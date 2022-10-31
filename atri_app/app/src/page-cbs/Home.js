@@ -52,42 +52,6 @@ export function usebrandNameCb() {
 }), [])
 	return { onClick }
 }
-export function useNavItemContainerCb() {
-	const onClick = useCallback(callbackFactory("NavItemContainer", "Home", "/", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useLink5Cb() {
-
-	return {  }
-}
-export function useLink6Cb() {
-
-	return {  }
-}
-export function useButton2Cb() {
-	const onClick = useCallback(callbackFactory("Button2", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
 export function useHeroSectionCb() {
 	const onClick = useCallback(callbackFactory("HeroSection", "Home", "/", "onClick", 
 			{
@@ -796,22 +760,6 @@ export function useImage1Cb() {
 }), [])
 	return { onClick }
 }
-export function useImage2Cb() {
-	const onClick = useCallback(callbackFactory("Image2", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
 export function useImage3Cb() {
 	const onClick = useCallback(callbackFactory("Image3", "Home", "/", "onClick", 
 			{
@@ -892,7 +840,59 @@ export function useImage7Cb() {
 }), [])
 	return { onClick }
 }
-export function useLink12Cb() {
+export function useNavItemContainerCb() {
+	const onClick = useCallback(callbackFactory("NavItemContainer", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useLink13Cb() {
 
 	return {  }
+}
+export function usePortfolioCb() {
+
+	return {  }
+}
+export function useLink15Cb() {
+
+	return {  }
+}
+export function useButton3Cb() {
+	const onClick = useCallback(callbackFactory("Button3", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage8Cb() {
+	const onClick = useCallback(callbackFactory("Image8", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }

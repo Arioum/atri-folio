@@ -1,11 +1,11 @@
 {
   "Div": 22,
-  "Flex": 23,
+  "Flex": 24,
   "Icon": 3,
-  "Menu": 1,
-  "Link": 12,
+  "Menu": 2,
+  "Link": 15,
   "TextBox": 18,
-  "Button": 2,
+  "Button": 3,
   "Dropdown": 1,
-  "Image": 7
+  "Image": 8
 }

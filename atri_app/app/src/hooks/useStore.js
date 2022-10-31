@@ -169,7 +169,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "Link5": {
+    "Link13": {
       "custom": {
         "text": "About",
         "url": "/"
@@ -182,7 +182,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "Link6": {
+    "Portfolio": {
       "custom": {
         "text": "Portfolio",
         "url": "/"
@@ -195,7 +195,20 @@ const desktopModeProps = {
         ]
       }
     },
-    "Button2": {
+    "Link15": {
+      "custom": {
+        "text": "Contact",
+        "url": "/"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Button3": {
       "custom": {
         "text": "Pages"
       },
@@ -207,23 +220,10 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image2": {
+    "Image8": {
       "custom": {
-        "alt": "bag",
+        "alt": "No preview available",
         "src": "/app-assets/akar-icons_shopping-bag.svg"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Link12": {
-      "custom": {
-        "text": "Contact",
-        "url": "/"
       },
       "callbacks": {
         "onClick": [
